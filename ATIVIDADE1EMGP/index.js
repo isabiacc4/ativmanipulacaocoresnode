@@ -22,9 +22,9 @@ readline.question("Qual foi a sua nota?  ", (nota) => {
         if (nota >= 7) {
             console.log(chalk.green.bold("Parabéns, está aprovado!"))
         } else if (nota >= 5) {
-            console.log(chalk.yellow("Está na média, atenção!"))    //bg é background
+            console.log(chalk.yellow("Está na média, atenção!"))    
         } else {
-                console.log(chalk.red("Reprovado!"))    //bg é background
+                console.log(chalk.red("Reprovado!"))    
             }
     })
 
